@@ -1,0 +1,210 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: var(--clr-grey-10);
+    font-family: var(--ff-secondary);
+  }
+  .heading {
+    margin: 50px 50px;
+    text-decoration: underline;
+    text-decoration-color: rgb(240, 220, 227);
+  }
+  .container {
+    background-color: var(--clr-white);
+    border: 2px solid rgb(215, 225, 241);
+    box-shadow: 2px 2px 5px 1px grey;
+    /* box-shadow:0 5px 15px rgba(0, 0, 0, 0.2); */
+    margin: auto;
+    padding: 30px 40px;
+    width: 40%;
+    /* height:250px; */
+  }
+  .innerContainer {
+  }
+  .img-container {
+    text-align: center;
+    position: relative;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    /* margin-bottom: 1.5rem; */
+    display: flex;
+    justify-content: center;
+  }
+  #image {
+    text-align: center;
+    width: 80%;
+    display: block;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* position: relative; */
+    margin-bottom: 0px;
+  }
+  
+  #name {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  #role {
+    text-transform: uppercase;
+    color: hsl(205, 78%, 60%);
+    font-size: 0.75rem;
+  }
+  #reviewTexts {
+    margin-bottom: 0.75rem;
+  }
+  .btns-div {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+  .prev {
+    /* color:1px solid rgb(224, 23, 23); */
+    margin-right: 3px;
+    font-size: 1.1rem;
+    border-radius: 20%;
+    cursor: pointer;
+    border: 0px;
+    background-color: rgba(135, 212, 226, 0.699);
+  }
+  .next {
+    border: 0px;
+    margin-right: 3px;
+    margin-right: 3px;
+    font-size: 1.1rem;
+    border-radius: 20%;
+    cursor: pointer;
+    border: 0px;
+    background-color: rgba(135, 212, 226, 0.699);
+  }
+  .prev:hover,
+  .next:hover {
+    color: hsl(205, 78%, 60%);
+    border: 1px solid hsl(205, 78%, 60%);
+  }
+  
+  .btn {
+    border: 0px;
+    margin-right: 3px;
+    margin-right: 3px;
+    font-size: 1.3rem;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 0px;
+    background-color: rgba(141, 135, 226, 0.466);
+    padding: 4px 4px;
+  }
+  
+  .btn:hover {
+    color: hsl(205, 52%, 26%);
+    border: 1px solid hsl(205, 78%, 60%);
+  }
+  body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--clr-grey-10);
+  font-family: var(--ff-secondary);
+}
+.heading {
+  margin: 50px 50px;
+  text-decoration: underline;
+  text-decoration-color: rgb(240, 220, 227);
+}
+.container {
+  background-color: var(--clr-white);
+  border: 2px solid rgb(215, 225, 241);
+  box-shadow: 2px 2px 5px 1px grey;
+  /* box-shadow:0 5px 15px rgba(0, 0, 0, 0.2); */
+  margin: auto;
+  padding: 30px 40px;
+  width: 40%;
+  /* height:250px; */
+}
+.innerContainer {
+}
+.img-container {
+  text-align: center;
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  /* margin-bottom: 1.5rem; */
+  display: flex;
+  justify-content: center;
+}
+#image {
+  text-align: center;
+  width: 80%;
+  display: block;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+  /* position: relative; */
+  margin-bottom: 0px;
+}
+
+#name {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#role {
+  text-transform: uppercase;
+  color: hsl(205, 78%, 60%);
+  font-size: 0.75rem;
+}
+#reviewTexts {
+  margin-bottom: 0.75rem;
+}
+.btns-div {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.prev {
+  /* color:1px solid rgb(224, 23, 23); */
+  margin-right: 3px;
+  font-size: 1.1rem;
+  border-radius: 20%;
+  cursor: pointer;
+  border: 0px;
+  background-color: rgba(135, 212, 226, 0.699);
+}
+.next {
+  border: 0px;
+  margin-right: 3px;
+  margin-right: 3px;
+  font-size: 1.1rem;
+  border-radius: 20%;
+  cursor: pointer;
+  border: 0px;
+  background-color: rgba(135, 212, 226, 0.699);
+}
+.prev:hover,
+.next:hover {
+  color: hsl(205, 78%, 60%);
+  border: 1px solid hsl(205, 78%, 60%);
+}
+
+.btn {
+  border: 0px;
+  margin-right: 3px;
+  margin-right: 3px;
+  font-size: 1.3rem;
+  border-radius: 10%;
+  cursor: pointer;
+  border: 0px;
+  background-color: rgba(141, 135, 226, 0.466);
+  padding: 4px 4px;
+}
+
+.btn:hover {
+  color: hsl(205, 52%, 26%);
+  border: 1px solid hsl(205, 78%, 60%);
+}
+
+  
